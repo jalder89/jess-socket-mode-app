@@ -1,0 +1,24 @@
+{
+  "name": "jess-socket-mode-app",
+  "version": "1.0.0",
+  "description": "Socket Mode app for mentoring",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbarnes-slack/jess-socket-mode-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbarnes-slack/jess-socket-mode-app/issues"
+  },
+  "homepage": "https://github.com/wbarnes-slack/jess-socket-mode-app#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.11.0"
+  }
+}
