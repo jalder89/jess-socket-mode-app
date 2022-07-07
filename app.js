@@ -42,7 +42,7 @@ app.options('external_action', async ({ options, ack }) => {
     {
       "text": {
         "type": "plain_text",
-        "text": "*this is plain_text text*"
+        "text": "*this is plain_text text 1*"
       },
       "value": "value-0"
     },
@@ -112,7 +112,7 @@ app.options('external_action', async ({ options, ack }) => {
     {
       "text": {
         "type": "plain_text",
-        "text": "*this is plain_text text*"
+        "text": "*this is plain_text text 10*"
       },
       "value": "value-10"
     },
@@ -182,7 +182,7 @@ app.options('external_action', async ({ options, ack }) => {
     {
       "text": {
         "type": "plain_text",
-        "text": "*this is plain_text text*"
+        "text": "*this is plain_text text 20*"
       },
       "value": "value-20"
     },
@@ -252,7 +252,7 @@ app.options('external_action', async ({ options, ack }) => {
     {
       "text": {
         "type": "plain_text",
-        "text": "*this is plain_text text*"
+        "text": "*this is plain_text text 30*"
       },
       "value": "value-30"
     },
@@ -269,6 +269,69 @@ app.options('external_action', async ({ options, ack }) => {
         "text": "*this is plain_text text*"
       },
       "value": "value-32"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text*"
+      },
+      "value": "value-33"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text*"
+      },
+      "value": "value-34"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text*"
+      },
+      "value": "value-35"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text*"
+      },
+      "value": "value-36"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text*"
+      },
+      "value": "value-37"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text*"
+      },
+      "value": "value-38"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text*"
+      },
+      "value": "value-39"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text*"
+      },
+      "value": "value-40"
+    },
+    {
+      "text": {
+        "type": "plain_text",
+        "text": "*this is plain_text text 41*"
+      },
+      "value": "value-41"
     }
   ];
 
