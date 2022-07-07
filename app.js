@@ -29,7 +29,7 @@ app.message('hello', async ({ message, client }) => {
               "type": "plain_text",
               "text": "Select an item"
             },
-            "min_query_length": 3
+            "min_query_length": 0
           }
         }
       ]
