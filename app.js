@@ -636,7 +636,7 @@ app.options('external_action', async ({ options, ack }) => {
 
 (async () => {
   // Start your app
-  await app.start();
+  await app.start(Number(port));
 
   console.log('⚡️ Bolt app is running!');
 })();
