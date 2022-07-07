@@ -9,9 +9,30 @@ const app = new App({
 });
 
 // Listens to incoming messages that contain "hello"
-app.message('hello', async ({ message, say }) => {
+app.message('hello', async ({ message, client }) => {
     // say() sends a message to the channel where the event was triggered
-    await say(`Hey there <@${message.user}>!`);
+    await client.chat.postMessage({
+      channel: message.channel,
+      blocks: [
+        {
+          "type": "section",
+          "block_id": "section678",
+          "text": {
+            "type": "mrkdwn",
+            "text": "Pick an item from the dropdown list"
+          },
+          "accessory": {
+            "action_id": "text1234",
+            "type": "external_select",
+            "placeholder": {
+              "type": "plain_text",
+              "text": "Select an item"
+            },
+            "min_query_length": 3
+          }
+        }
+      ]
+    });
 });
 
 // Example of responding to an external_select options request
