@@ -23,7 +23,7 @@ app.message('hello', async ({ message, client }) => {
             "text": "Pick an item from the dropdown list"
           },
           "accessory": {
-            "action_id": "text1234",
+            "action_id": "external_action",
             "type": "external_select",
             "placeholder": {
               "type": "plain_text",
