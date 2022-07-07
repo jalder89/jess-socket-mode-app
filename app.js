@@ -16,7 +16,7 @@ app.message('hello', async ({ message, say }) => {
 
 // Example of responding to an external_select options request
 app.options('external_action', async ({ options, ack }) => {
-  const options = [
+  options = [
     {
       "text": {
         "type": "plain_text",
